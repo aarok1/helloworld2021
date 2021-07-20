@@ -1,5 +1,6 @@
 pipeline {
     agent any
+    triggers {pullSCM '*****'}
     tools {
         maven 'M2_HOME'
     }
